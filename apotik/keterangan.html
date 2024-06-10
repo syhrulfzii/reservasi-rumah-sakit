@@ -22,6 +22,15 @@
             height: 400px;
             width: 90%;
         }
+
+        .card-img {
+            height: 300px;
+            width: 100%;
+        }
+
+        .clr-input {
+            background-color: #D9DCE1;
+        }
     </style>
 </head>
 
@@ -56,49 +65,32 @@
     <!-- navbar end -->
 
     <!-- hero section -->
-    <section class="hero-section">
-        <div class="conatiner">
-            <a href="/user/regist-user.html"><img class="img-custom object-fit-cover" src="/asset/SubHead.png"
-                    alt=""></a>
-            <div class="text-center">
-                <img src="/asset/Group 219.png" class="rounded mt-5 img-jdwl" alt="img">
-            </div>
-            <div class="container text-center mt-5 mb-5">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/asset/female doctor and male doctor standing together.png" alt="img">
-                                <a href="#" class="btn btn-primary mt-2" style="width: 100%;">Reservasi</a>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                                    veritatis! Ex dignissimos magni nihil eveniet quasi.</p>
+    <section>
+        <a href="/user/regist-user.html"><img class="img-custom object-fit-cover " src="/asset/SubHead.png"
+                alt="img"></a>
+        <div class="conainer">
+            <div class="row justify-content-center mt-5 rounded">
+                <div class="col-md-4 mb-5">
+                    <form method="POST" class="form">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Keterangan</label>
+                            <div class="card text-center clr-input" style="height: 140px;">
+                                <p class="mt-5">keterangan</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/asset/female doctor and male doctor standing together.png" alt="img">
-                                <a href="#" class="btn btn-primary mt-2" style="width: 100%;">Riwayat</a>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                                    veritatis! Ex dignissimos magni nihil eveniet quasi.</p>
-                            </div>
+
+
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-danger py-1 ">Kembali</button>
+                            <a href="/reservasi/reservasi-lanjut.html"><button type="button"
+                                    class="btn btn-primary py-1 ">Cetak</button></a>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="/asset/female doctor and male doctor standing together.png" " alt=" img">
-                                <a href="#" class="btn btn-primary mt-2" style="width: 100%;">Apotik</a>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                                    veritatis! Ex dignissimos magni nihil eveniet quasi.</p>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- hero section end -->
 
     <!-- footer -->
@@ -136,4 +128,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html>3
